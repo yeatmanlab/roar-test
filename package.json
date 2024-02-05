@@ -1,6 +1,6 @@
 {
   "name": "@bdelab/roar-test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This package encapsulates all of the testing logic for the Roar Apps and Roar Dashboard.",
   "main": "index.js",
   "scripts": {
