@@ -1,6 +1,6 @@
 const timeout = Cypress.env('timeout')
 
-describe('Testing playthrough of SWR as a participant', () => {
+export const playSwrApp = () => {describe('Testing playthrough of SWR as a participant', () => {
   it('ROAR-Word Playthrough Test', () => {
     cy.visit(Cypress.env("baseUrl"));
 
@@ -86,4 +86,4 @@ function finishSWR(block_termination_phrase) {
       finishSWR(block_termination_phrase);
     }
   });
-}
+}}
