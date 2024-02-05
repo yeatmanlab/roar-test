@@ -1,0 +1,21 @@
+{
+  "name": "@bdelab/roar-test",
+  "version": "1.0.0",
+  "description": "This package encapsulates all of the testing logic for the Roar Apps and Roar Dashboard.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeatmanlab/roar-test.git"
+  },
+  "author": "Yeatman Lab",
+  "license": "Stanford Academic Software License for ROAR",
+  "bugs": {
+    "url": "https://github.com/yeatmanlab/roar-test"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.4"
+  }
+}
